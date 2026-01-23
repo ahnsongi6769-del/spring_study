@@ -49,6 +49,7 @@ public class Request03Controller {
 	
 	@GetMapping("/param3")
 	public String param3(HttpServletRequest request) {
+		// HttpServletRequest = 클라이언트(브라우저)가 서버로 보낸 모든 요청 정보를 담고 있는 객체
 		// localhost:8080/request03/param3?p1=10&p2=20&p3=30
 		
 		System.out.println("/request03/param3");
@@ -138,6 +139,8 @@ public class Request03Controller {
 	
 	public String param8(@ModelAttribute ProductRequestForm product) { // dto 객체를 받아서 처리하는 걸로 작성
 		
+		//@ModelAttribute = 요청 파라미터를 객체(DTO)에 자동으로 담아서 모델에 올려주는 어노테이션
+		
 		System.out.println("/request03/param8[POST 요청]");
 		
 		//처리하는 로직 
@@ -155,6 +158,7 @@ public class Request03Controller {
 	// localhost:8080/request03/param9/123
 	@RequestMapping("/param9/{itemId}")
 	public String param9(@PathVariable String itemId) {
+		//@PathVariable = URL 경로(path)에 포함된 값을 변수로 받는 어노테이션
 		
 		System.out.println("/request03/param9{itemId}");
 		System.out.println(itemId);
