@@ -10,5 +10,4 @@ public class MemberController {
 	public String signup() {
 		return "member/signup";
 	}
-	
 }

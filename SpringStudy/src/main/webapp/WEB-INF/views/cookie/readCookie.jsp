@@ -7,7 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1> readCookie</h1>
+
+	<h1>readCookie</h1>
 	
 	<p>${menu}</p>
 </body>

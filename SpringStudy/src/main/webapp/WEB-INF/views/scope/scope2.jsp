@@ -7,16 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1> scope2</h1>
-
-<p> ${requestMsg}</p>
-<p> ${requestScope.requestMsg}</p>
-
-<p> ${sessionMsg}</p>
-<p> ${sessionScope.sessionMsg}</p>
-
-<p> ${appMsg}</p>
-<p> ${applicationScope.appMsg}</p>
-
+	<h1>scope2</h1>
+	
+	<p>${requestMsg}</p>
+	<p>${requestScope.requestMsg}</p>
+	
+	<p>${sessionMsg}</p>
+	<p>${sessionScope.sessionMsg}</p>
+	
+	<p>${appMsg}</p>
+	<p>${applicationScope.appMsg}</p>
+	
 </body>
 </html>

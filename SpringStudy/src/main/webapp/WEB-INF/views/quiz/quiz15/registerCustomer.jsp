@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>/quiz02/req2 POST 요청</h1>	
+	<h1>registerCustomer</h1>
+	
+	<form action="/quiz15/registerCustomer" method="post">
+		<button type="submit">등록</button>
+	</form>
 </body>
 </html>

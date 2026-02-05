@@ -6,4 +6,3 @@ import lombok.Data;
 public class DessertBean {
 	String name;
 }
-

@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<H1>HOME.JSP</H1>
+	<h1>home.jsp</h1>
+	<h2>SpringStudy</h2>
 </body>
 </html>

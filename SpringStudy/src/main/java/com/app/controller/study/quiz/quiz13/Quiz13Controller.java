@@ -40,3 +40,5 @@ public class Quiz13Controller {
 		return "redirect:/quiz13/hideAd";
 	}
 }
+
+

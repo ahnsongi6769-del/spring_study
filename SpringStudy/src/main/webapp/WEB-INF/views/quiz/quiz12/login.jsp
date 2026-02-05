@@ -7,15 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-<h1> quiz12 Login</h1>
-
-<div>
-		<form action = "/quiz12/login" method="post"> 
-		ID: <input type ="text" name= "id"> <br>
-		PW:<input type ="password" name= "pw"> <br>
-		<button type = "submit"> 로그인 </button>
-		</form>
-	</div>
+	<h1>quiz12 login page</h1>
+	
+	<form action="/quiz12/login" method="post">
+		id : <input type="text" name="id"> <br>
+		pw : <input type="password" name="pw"> <br>
+		<button type="submit">로그인</button>
+	</form>
 </body>
 </html>

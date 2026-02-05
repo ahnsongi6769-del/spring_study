@@ -3,9 +3,8 @@ package com.app.controller.study.quiz.quiz04;
 import lombok.Data;
 
 @Data
-public class Item {
+public class Product {
 	
-	int category;
-	int product;
-
+	String category;
+	String product;
 }

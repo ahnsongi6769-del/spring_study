@@ -8,7 +8,8 @@
 </head>
 <body>
 	<h1>url1</h1>
-	<h2> 요청주소 /url1</h2>
-	<h2> 파일이 /WEB-INF/view/url1.jsp 파일 입니다. </h2>
+	
+	<h2> 요청주소 /url1 </h2>
+	<h2> 파일이 /WEB-INF/views/url1.jsp 파일 입니다.</h2>
 </body>
 </html>

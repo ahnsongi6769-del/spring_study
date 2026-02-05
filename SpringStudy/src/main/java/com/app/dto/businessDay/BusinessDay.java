@@ -1,4 +1,4 @@
-package com.app.dto.businessDay;
+package com.app.dto.businessday;
 
 public class BusinessDay {
 

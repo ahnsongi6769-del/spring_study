@@ -7,11 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-<div>
-${category}
-${product}
-</div>
-
+	<h1>Quiz02 req 페이지</h1>
 </body>
 </html>

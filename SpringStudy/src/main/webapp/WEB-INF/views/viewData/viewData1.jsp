@@ -13,9 +13,16 @@
 	<%=request.getAttribute("menu")%>
 	
 	<div>
-		<p> ${store} </p>
-		<p> ${menu} </p>		
+		<p>${store}</p>
+		<p>${menu}</p>
 	</div>
 	
 </body>
 </html>
+
+
+
+
+
+
+

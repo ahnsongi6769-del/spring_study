@@ -6,15 +6,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/board")
 public class BoardController {
-
 	
-		@RequestMapping("/faq")
-		public String feq() {
-			return "board/faq";
-		}
-		
-		@RequestMapping("/notice")
-		public String notice() {
-			return "board/notice";
-		}
+	//@RequestMapping("/board/faq")
+	@RequestMapping("/faq")
+	public String faq() {
+		return "board/faq";
+	}
+	
+	//@RequestMapping("/board/notice")
+	@RequestMapping("/notice")
+	public String notice() {
+		return "board/notice";
+	}
 }
+

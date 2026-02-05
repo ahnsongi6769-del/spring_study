@@ -1,10 +1,14 @@
 package com.app.controller.study.quiz.quiz03;
 
-public class Drink {
+import lombok.Data;
 
-	public String item;
-	public String type;
+@Data
+public class Beverage {
+
+	String item;
+	String type;
 	
+	/*
 	public String getItem() {
 		return item;
 	}
@@ -19,8 +23,7 @@ public class Drink {
 	}
 	@Override
 	public String toString() {
-		return "Drink [item=" + item + ", type=" + type + "]";
+		return "Beverage [item=" + item + ", type=" + type + "]";
 	}
-	
-	
+	*/
 }

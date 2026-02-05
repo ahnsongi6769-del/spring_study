@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>product mouse 페이지</h1>
+	<h1>mouse 화면</h1>
 </body>
 </html>

@@ -7,17 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%=request.getAttribute("item")%>
-	<%=request.getAttribute("type")%>
+	<h1>registerRoom</h1>
 	
-	<div>
-		<p> ${item} </p>
-		<p> ${type} </p>		
-	</div>
-	
-	<div>
-		<p> ${drinkItem.item} </p>
-		<p> ${drinkItem.type} </p>		
-	</div>
+	<form action="/quiz15/registerRoom" method="post">
+		<button type="submit">등록</button>
+	</form>
 </body>
 </html>

@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>views/member/signup</h1>
+	<h1>/views/member/signup.jsp</h1>
 </body>
 </html>

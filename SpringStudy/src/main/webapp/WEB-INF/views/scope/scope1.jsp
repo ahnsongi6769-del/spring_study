@@ -7,12 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-<h1> scope1</h1>
-<p> ${msg1}</p>
-<p> ${msg2}</p>
-
-<p> ${requestScope.msg1}</p>
-<p> ${requestScope.msg2}</p>
+	<h1>scope1</h1>
+	
+	<p>${msg1}</p>
+	<p>${msg2}</p>
+	
+	<p>${requestScope.msg1}</p>
+	<p>${requestScope.msg2}</p>
+	
+	
 </body>
 </html>

@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
- <h1>"/quiz02/req3 요청"</h1>
+	<h1>quiz04 req</h1>
 </body>
 </html>

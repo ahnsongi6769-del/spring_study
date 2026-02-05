@@ -4,9 +4,7 @@ import lombok.Data;
 
 @Data
 public class TransferItem {
-	
 
 	String value001;
 	String value099;
-
 }
