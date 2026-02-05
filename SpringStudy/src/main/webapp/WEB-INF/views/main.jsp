@@ -8,5 +8,9 @@
 </head>
 <body>
 	<h1>여기는 main 페이지입니다.</h1>
+	
+	<div>
+		<button type="button" onClick="location.href='/customer/signup'">회원가입하기</button>
+	</div>
 </body>
 </html>

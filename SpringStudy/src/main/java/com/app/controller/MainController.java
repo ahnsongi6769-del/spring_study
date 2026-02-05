@@ -10,7 +10,12 @@ public class MainController {
 	public String main() {  //이 메소드를 실행
 		
 		//return -> view 자원이름
-		
 		return "main";
+	}
+	
+	@RequestMapping({"/", "/home", "/index" })
+	public String root() { 
+		//return "main";
+		return "redirect:/main";
 	}
 }
